@@ -1,0 +1,13 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+
+  }
+
+  body {
+    margin:0;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./assets/blur-blurred-blurred-background-bokeh-1187974.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+  }
