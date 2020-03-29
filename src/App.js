@@ -7,7 +7,7 @@ import Axios from 'axios'
 import FormComponent from './app_component/formComponent'
 
 
-//const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 //api.openweathermap.org/data/2.5/weather?q=London,uk
 
@@ -87,7 +87,7 @@ class App extends Component {
     const country = e.target.elements.country.value;
 
     if (city && country) {
-      Axios.get(`https://samples.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=b6907d289e10d714a6e88b30761fae22`)
+      Axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}`)
         .then(Res => {
           console.log(Res)
           this.setState({
