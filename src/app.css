@@ -19,7 +19,7 @@
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./assets/blur-countryside-cropland-dawn-1146714.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height:auto;
+    height:100vh;
   }
 
   }
